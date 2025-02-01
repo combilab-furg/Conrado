@@ -7,10 +7,10 @@ Clique nas imagens para direcionar
   </a>
 </p>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="https://raw.githubusercontent.com/mdcbalboni/Conrado/main/imagem/1.png" alt="Identificar Mutações" width="200">](#identify-mutations-related-to-resistance)
-[<img src="https://raw.githubusercontent.com/mdcbalboni/Conrado/main/imagem/2.png" alt="Identificar Mutações" width="200">](#investigar-novas-mutações)
-[<img src="https://raw.githubusercontent.com/mdcbalboni/Conrado/main/imagem/3.png" alt="Identificar Mutações" width="200">](#analisar-variabilidade-genômica)
-[<img src="https://raw.githubusercontent.com/mdcbalboni/Conrado/main/imagem/4.png" alt="Identificar Mutações" width="200">](#explorar-alvos-terapêuticos-potenciais)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="https://raw.githubusercontent.com/mdcbalboni/Conrado/main/imagem/1.png" alt="Identificar Mutações" width="150">](#identify-mutations-related-to-resistance)
+[<img src="https://raw.githubusercontent.com/mdcbalboni/Conrado/main/imagem/2.png" alt="Identificar Mutações" width="150">](#investigar-novas-mutações)
+[<img src="https://raw.githubusercontent.com/mdcbalboni/Conrado/main/imagem/3.png" alt="Identificar Mutações" width="150">](#analisar-variabilidade-genômica)
+[<img src="https://raw.githubusercontent.com/mdcbalboni/Conrado/main/imagem/4.png" alt="Identificar Mutações" width="150">](#explorar-alvos-terapêuticos-potenciais)
 
 
 ---
