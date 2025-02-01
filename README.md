@@ -3,11 +3,10 @@
 ## Plataforma: ILUMINA 2500 HiSeq
 
 ### 🗒 Fluxo de Trabalho Interativo
-
-- [Identificar mutações relacionadas à resistência](#identificar-mutações-relacionadas-à-resistência)
-- [Investigar novas mutações](#investigar-novas-mutações)
-- [Analisar variabilidade genômica](#analisar-variabilidade-genômica)
-- [Explorar alvos terapêuticos potenciais](#explorar-alvos-terapêuticos-potenciais)
+[![Identificar Mutações](https://raw.githubusercontent.com/mdcbalboni/Conrado/main/imagem/1.png)](#identificar-mutações-relacionadas-à-resistência)
+[![Investigar novas mutações](https://raw.githubusercontent.com/mdcbalboni/Conrado/main/imagem/2.png)](#investigar-novas-mutações)
+[![Analisar variabilidade genômica](https://raw.githubusercontent.com/mdcbalboni/Conrado/main/imagem/3.png)](#analisar-variabilidade-genômica)
+[![Explorar alvos terapêuticos potenciais](https://raw.githubusercontent.com/mdcbalboni/Conrado/main/imagem/4.png)](#explorar-alvos-terapêuticos-potenciais)
 
 ---
 
