@@ -1,3 +1,6 @@
+[![GitHub Logo](https://github.com/favicon.ico)](https://github.com/combilab-furg)
+
+
 # Genomic analysis pipeline
 <p align="center">
   <a href="#identificar-mutações-relacionadas-à-resistência">
