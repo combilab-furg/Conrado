@@ -1,5 +1,3 @@
-Clique nas imagens para direcionar
-
 # Genomic analysis pipeline
 <p align="center">
   <a href="#identificar-mutações-relacionadas-à-resistência">
@@ -8,9 +6,9 @@ Clique nas imagens para direcionar
 </p>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="https://raw.githubusercontent.com/mdcbalboni/Conrado/main/imagem/1.png" alt="Identificar Mutações" width="150">](#identify-mutations-related-to-resistance)
-[<img src="https://raw.githubusercontent.com/mdcbalboni/Conrado/main/imagem/2.png" alt="Identificar Mutações" width="150">](#investigar-novas-mutações)
-[<img src="https://raw.githubusercontent.com/mdcbalboni/Conrado/main/imagem/3.png" alt="Identificar Mutações" width="150">](#analisar-variabilidade-genômica)
-[<img src="https://raw.githubusercontent.com/mdcbalboni/Conrado/main/imagem/4.png" alt="Identificar Mutações" width="150">](#explorar-alvos-terapêuticos-potenciais)
+[<img src="https://raw.githubusercontent.com/mdcbalboni/Conrado/main/imagem/2.png" alt="Identificar Mutações" width="150">](#Investigate-New-Mutations)
+[<img src="https://raw.githubusercontent.com/mdcbalboni/Conrado/main/imagem/3.png" alt="Identificar Mutações" width="150">](#Analyze-Genomic-Variability)
+[<img src="https://raw.githubusercontent.com/mdcbalboni/Conrado/main/imagem/4.png" alt="Identificar Mutações" width="150">](#Explore-Potential-Therapeutic-Targets)
 
 
 ---
@@ -18,18 +16,20 @@ Clique nas imagens para direcionar
   ## Identify mutations related to resistance
   
   <details>
-    <summary>Ver mais</summary>
-    
-  1. Verificar qualidade dos arquivos FASTQ
-2. Remover leituras de baixa qualidade
-3. Remover duplicatas
-4. Mapear contra genoma H37Rv ou montagem De Novo
-5. Chamada de variantes (SNPs e indels)
-6. Classificar mutações relacionadas à resistência
-7. Comparar com dados fenotípicos para validação
+   <summary>Click to reveal the text</summary>
 
+    
+1. Check the quality of FASTQ files
+2. Remove low-quality reads
+3. Remove duplicates
+4. Map against the H37Rv genome or perform De Novo assembly
+5. Variant calling (SNPs and indels)
+6. Classify resistance-related mutations
+7. Compare with phenotypic data for validation
+   
 [<img src="https://raw.githubusercontent.com/mdcbalboni/Conrado/main/imagem/1_1.png" alt="Identificar Mutações" width="1000">](#explorar-alvos-terapêuticos-potenciais)
-[Voltar ao topo](#genomic-analysis-pipeline)
+
+[Back to top](#genomic-analysis-pipeline)
 
 </details>
 
@@ -38,20 +38,21 @@ Clique nas imagens para direcionar
 
 ---
 
-## Investigar novas mutações
+## Investigate New Mutations
 
   
   <details>
-    <summary>Ver mais</summary>
+    <summary>Click to reveal the text</summary>
     
 
-1. Verificar qualidade dos arquivos FASTQ
-2. Remover leituras de baixa qualidade
-3. Remover duplicatas
-4. Mapear contra genoma H37Rv ou montagem De Novo
-5. Chamada de variantes (SNPs e indels)
-6. Identificar variantes não listadas em bases de dados
-7. Associar a genes específicos
+1. Check the quality of FASTQ files
+2. Remove low-quality reads
+3. Remove duplicates
+4. Map against the H37Rv genome or perform De Novo assembly
+5. Variant calling (SNPs and indels)
+6. Identify variants not listed in databases
+7. Associate with specific genes
+
 
 [<img src="https://raw.githubusercontent.com/mdcbalboni/Conrado/main/imagem/2_1.png" alt="Identificar Mutações" width="1000">](#explorar-alvos-terapêuticos-potenciais)
 
@@ -62,22 +63,21 @@ Clique nas imagens para direcionar
 
 ---
 
-## Analisar variabilidade genômica
+## Analyze Genomic Variability
 
   
   <details>
-    <summary>Ver mais</summary>
+    <summary>Click to reveal the text</summary>
     
 
-
-1. Verificar qualidade dos arquivos FASTQ
-2. Remover leituras de baixa qualidade
-3. Remover duplicatas
-4. Mapear contra genoma H37Rv ou montagem De Novo
-5. Análise filogenética
-6. Construção de árvores filogenéticas
-7. Comparação de genomas
-8. Análise de regiões conservadas e convergentes
+1. Check the quality of FASTQ files
+2. Remove low-quality reads
+3. Remove duplicates
+4. Map against the H37Rv genome or perform De Novo assembly
+5. Phylogenetic analysis
+6. Build phylogenetic trees
+7. Genome comparison
+8. Analysis of conserved and convergent regions
 
 [<img src="https://raw.githubusercontent.com/mdcbalboni/Conrado/main/imagem/3_1.png" alt="Identificar Mutações" width="1000">](#explorar-alvos-terapêuticos-potenciais)
 [Voltar ao topo](#genomic-analysis-pipeline)
@@ -86,21 +86,20 @@ Clique nas imagens para direcionar
 
 ---
 
-## Explorar alvos terapêuticos potenciais
+## Explore Potential Therapeutic Targets
 
   
   <details>
-    <summary>Ver mais</summary>
+    <summary>Click to reveal the text</summary>
     
-
-1. Verificar qualidade dos arquivos FASTQ
-2. Remover leituras de baixa qualidade
-3. Remover duplicatas
-4. Mapear contra genoma H37Rv ou montagem De Novo
-5. Identificação de genes específicos
-6. Modelagem estrutural de proteínas
-7. Triagem virtual
-8. Simulação de interação com fármacos
+1. Check the quality of FASTQ files
+2. Remove low-quality reads
+3. Remove duplicates
+4. Map against the H37Rv genome or perform De Novo assembly
+5. Identification of specific genes
+6. Structural protein modeling
+7. Virtual screening
+8. Simulate interaction with drugs
 
  [<img src="https://raw.githubusercontent.com/mdcbalboni/Conrado/main/imagem/4_1.png" alt="Identificar Mutações" width="1000">](#explorar-alvos-terapêuticos-potenciais)
  
@@ -110,3 +109,12 @@ Clique nas imagens para direcionar
 
 
 ---
+
+### Key Features:
+- **Interactive Workflow**: Click on the images to navigate to the corresponding section.
+- **Back to Top Links**: Each section includes a link to return to the top of the page.
+- **Clear Steps**: Each step is outlined in a simple, easy-to-follow format.
+
+---
+
+[Voltar ao topo](#genomic-analysis-pipeline)
