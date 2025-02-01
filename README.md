@@ -117,4 +117,6 @@
 
 ---
 
+For any questions, please contact me by email: conradocastanho@gmail.com
+
 [Voltar ao topo](#genomic-analysis-pipeline)
