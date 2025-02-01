@@ -59,7 +59,7 @@
 
 [<img src="https://raw.githubusercontent.com/mdcbalboni/Conrado/main/imagem/2_1.png" alt="Identificar Mutações" width="1000">](#explorar-alvos-terapêuticos-potenciais)
 
-[Voltar ao topo](#genomic-analysis-pipeline)
+[Back to top](#genomic-analysis-pipeline)
 
 </details>
 
@@ -83,7 +83,8 @@
 8. Analysis of conserved and convergent regions
 
 [<img src="https://raw.githubusercontent.com/mdcbalboni/Conrado/main/imagem/3_1.png" alt="Identificar Mutações" width="1000">](#explorar-alvos-terapêuticos-potenciais)
-[Voltar ao topo](#genomic-analysis-pipeline)
+
+[Back to top](#genomic-analysis-pipeline)
 
 </details>
 
@@ -106,7 +107,7 @@
 
  [<img src="https://raw.githubusercontent.com/mdcbalboni/Conrado/main/imagem/4_1.png" alt="Identificar Mutações" width="1000">](#explorar-alvos-terapêuticos-potenciais)
  
-[Voltar ao topo](#genomic-analysis-pipeline)
+[Back to top](#genomic-analysis-pipeline)
 
 </details>
 
@@ -122,4 +123,4 @@
 
 For any questions, please contact me by email: conradocastanho@gmail.com
 
-[Voltar ao topo](#genomic-analysis-pipeline)
+[Back to top](#genomic-analysis-pipeline)
