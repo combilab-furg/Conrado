@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fluxograma com Grid e Conexões</title>
+    <link rel="stylesheet" href="styles_page_1.css">
+</head>
+<body>
+    <div class="parent">
+        <!-- Todas as divs do fluxograma -->
+        <div class="div1">Identify mutations related to resistance</div>
+        <div class="div3">Check the quality of fastq files</div>
+        <div class="div5">Remove low-quality  reads</div>
+        <div class="div8">FastQC</div>
+        <div class="div9">Trimmomatic</div>
+        <div class="div10">Snippy</div>
+        <div class="div11">FastP</div>
+        <div class="div12">Remove duplicates</div>
+        <div class="div13">Picardtools</div>
+        <div class="div14">fastq-mcf</div>
+        <div class="div15">Mapping against the reference genome - H37Rv</div>
+        <div class="div16">BWA-Men</div>
+        <div class="div17">Minimap</div>
+        <div class="div18">Stampy</div>
+        <div class="div19">Snap</div>
+        <div class="div20">Bowtie2</div>
+        <div class="div21">Variant Calling (SNPs and indels)</div>
+        <div class="div22">GATK</div>
+        <div class="div23">SAMtools</div>
+        <div class="div24">BCFtools</div>
+        <div class="div25">Lofreq</div>
+        <div class="div26">VarsCan</div>
+        <div class="div27">Freebayes</div>
+        <div class="div28">snpEff</div>
+        <div class="div29">CASTB</div>
+        <div class="div30">Tuberculist</div>
+        <div class="div31">VariantCaller</div>
+        
+        <!-- Todas as linhas de conexão -->
+        <svg class="connector" id="connector">
+            <!-- Conexão 1 → 3 -->
+            <line class="connection-line line-1to3" id="line1to3"/>
+
+            <line class="connection-line line-3to8" id="line3to8"/>
+
+            <line class="connection-line line-5to9" id="line5to9"/>
+            <line class="connection-line line-5to10" id="line5to10"/>
+            <line class="connection-line line-5to11" id="line5to11"/>
+
+            <line class="connection-line line-12to13" id="line12to13"/>
+            <line class="connection-line line-12to14" id="line12to14"/>
+
+            <line class="connection-line line-15to16" id="line15to16"/>
+            <line class="connection-line line-15to17" id="line15to17"/>
+            <line class="connection-line line-15to18" id="line15to18"/>
+            <line class="connection-line line-15to19" id="line15to19"/>
+            <line class="connection-line line-15to20" id="line15to20"/>
+
+            <line class="connection-line line-21to22" id="line21to22"/>
+            <line class="connection-line line-21to23" id="line21to23"/>
+            <line class="connection-line line-21to24" id="line21to24"/>
+            <line class="connection-line line-21to25" id="line21to25"/>
+            <line class="connection-line line-21to26" id="line21to26"/>
+            <line class="connection-line line-21to27" id="line21to27"/>
+            <line class="connection-line line-21to28" id="line21to28"/>
+            <line class="connection-line line-21to29" id="line21to29"/>
+            <line class="connection-line line-21to30" id="line21to30"/>
+            <line class="connection-line line-21to31" id="line21to31"/>
+            <line class="connection-line line-3to5" id="line3to5"/>
+            <line class="connection-line line-5to12" id="line5to12"/>
+            <line class="connection-line line-12to15" id="line12to15"/>
+            <line class="connection-line line-15to21" id="line15to21"/>
+        </svg>
+    </div>
+
+    <script>
+        // Função para atualizar todas as conexões
+        function updateAllConnections() {
+            const parent = document.querySelector('.parent');
+            const parentRect = parent.getBoundingClientRect();
+            
+            // Conexão 1 → 3 (do centro da base da div1 ao centro do topo da div3)
+            updateLine(
+                document.querySelector('.div1'),
+                document.querySelector('.div3'),
+                document.getElementById('line1to3'),
+                parentRect,
+                'bottom' // Ponto de saída
+            );
+            updateLine(
+                document.querySelector('.div3'),
+                document.querySelector('.div8'),
+                document.getElementById('line3to8'),
+                parentRect,
+                'bottom' // Ponto de saída
+            );
+            updateLine(
+                document.querySelector('.div5'),
+                document.querySelector('.div9'),
+                document.getElementById('line5to9'),
+                parentRect,
+                'bottom' // Ponto de saída
+            );
+            // Conexão 5 → 11 (do centro da base da div5 ao centro do topo da div11)
+            updateLine(
+                document.querySelector('.div5'),
+                document.querySelector('.div11'),
+                document.getElementById('line5to11'),
+                parentRect,
+                'bottom' // Ponto de saída
+            );
+
+            updateLine(
+                document.querySelector('.div5'),
+                document.querySelector('.div10'),
+                document.getElementById('line5to10'),
+                parentRect,
+                'bottom' // Ponto de saída
+            );
+
+            updateLine(
+                document.querySelector('.div12'),
+                document.querySelector('.div13'),
+                document.getElementById('line12to13'),
+                parentRect,
+                'bottom' // Ponto de saída
+            );
+
+            updateLine(
+                document.querySelector('.div12'),
+                document.querySelector('.div14'),
+                document.getElementById('line12to14'),
+                parentRect,
+                'bottom' // Ponto de saída
+            );
+
+            updateLine(
+                document.querySelector('.div12'),
+                document.querySelector('.div14'),
+                document.getElementById('line12to14'),
+                parentRect,
+                'bottom' // Ponto de saída
+            );
+            updateLine(
+                document.querySelector('.div15'),
+                document.querySelector('.div16'),
+                document.getElementById('line15to16'),
+                parentRect,
+                'bottom' // Ponto de saída
+            );
+            updateLine(
+                document.querySelector('.div15'),
+                document.querySelector('.div17'),
+                document.getElementById('line15to17'),
+                parentRect,
+                'bottom' // Ponto de saída
+            );
+            updateLine(
+                document.querySelector('.div15'),
+                document.querySelector('.div18'),
+                document.getElementById('line15to18'),
+                parentRect,
+                'bottom' // Ponto de saída
+            );
+            updateLine(
+                document.querySelector('.div15'),
+                document.querySelector('.div19'),
+                document.getElementById('line15to19'),
+                parentRect,
+                'bottom' // Ponto de saída
+            );
+            updateLine(
+                document.querySelector('.div15'),
+                document.querySelector('.div20'),
+                document.getElementById('line15to20'),
+                parentRect,
+                'bottom' // Ponto de saída
+            );
+
+            updateLine(
+                document.querySelector('.div21'),
+                document.querySelector('.div22'),
+                document.getElementById('line21to22'),
+                parentRect,
+                'bottom' // Ponto de saída
+            );
+            updateLine(
+                document.querySelector('.div21'),
+                document.querySelector('.div23'),
+                document.getElementById('line21to23'),
+                parentRect,
+                'bottom' // Ponto de saída
+            );
+            updateLine(
+                document.querySelector('.div21'),
+                document.querySelector('.div24'),
+                document.getElementById('line21to24'),
+                parentRect,
+                'bottom' // Ponto de saída
+            );
+            updateLine(
+                document.querySelector('.div21'),
+                document.querySelector('.div25'),
+                document.getElementById('line21to25'),
+                parentRect,
+                'bottom' // Ponto de saída
+            );
+            updateLine(
+                document.querySelector('.div21'),
+                document.querySelector('.div26'),
+                document.getElementById('line21to26'),
+                parentRect,
+                'bottom' // Ponto de saída
+            );
+            updateLine(
+                document.querySelector('.div21'),
+                document.querySelector('.div27'),
+                document.getElementById('line21to27'),
+                parentRect,
+                'bottom' // Ponto de saída
+            );
+            updateLine(
+                document.querySelector('.div21'),
+                document.querySelector('.div28'),
+                document.getElementById('line21to28'),
+                parentRect,
+                'bottom' // Ponto de saída
+            );
+            updateLine(
+                document.querySelector('.div21'),
+                document.querySelector('.div29'),
+                document.getElementById('line21to29'),
+                parentRect,
+                'bottom' // Ponto de saída
+            );
+            updateLine(
+                document.querySelector('.div21'),
+                document.querySelector('.div30'),
+                document.getElementById('line21to30'),
+                parentRect,
+                'bottom' // Ponto de saída
+            );
+            updateLine(
+                document.querySelector('.div21'),
+                document.querySelector('.div31'),
+                document.getElementById('line21to31'),
+                parentRect,
+                'bottom' // Ponto de saída
+            );
+            updateLine(
+                document.querySelector('.div3'),
+                document.querySelector('.div5'),
+                document.getElementById('line3to5'),
+                parentRect,
+                'bottom' // Ponto de saída
+            );
+            updateLine(
+                document.querySelector('.div5'),
+                document.querySelector('.div12'),
+                document.getElementById('line5to12'),
+                parentRect,
+                'bottom' // Ponto de saída
+            );
+            updateLine(
+                document.querySelector('.div12'),
+                document.querySelector('.div15'),
+                document.getElementById('line12to15'),
+                parentRect,
+                'bottom' // Ponto de saída
+            );
+            updateLine(
+                document.querySelector('.div15'),
+                document.querySelector('.div21'),
+                document.getElementById('line15to21'),
+                parentRect,
+                'bottom' // Ponto de saída
+            );
+
+        }
+
+        /**
+         * Atualiza uma linha de conexão entre duas divs
+         * @param {HTMLElement} fromDiv - Div de origem
+         * @param {HTMLElement} toDiv - Div de destino
+         * @param {SVGElement} lineElement - Elemento SVG <line>
+         * @param {DOMRect} parentRect - Retângulo do container pai
+         * @param {string} fromPoint - Ponto de saída ('center' ou 'bottom')
+         */
+         function updateLine(fromDiv, toDiv, lineElement, parentRect, fromPoint = 'center') {
+    const fromRect = fromDiv.getBoundingClientRect();
+    const toRect = toDiv.getBoundingClientRect();
+    
+    // Calcula ponto de origem
+    let fromX, fromY;
+    if (fromPoint === 'bottom') {
+        fromX = fromRect.left + fromRect.width/2 - parentRect.left;
+        fromY = fromRect.bottom - parentRect.top;
+    } else { // center
+        fromX = fromRect.left + fromRect.width/2 - parentRect.left;
+        fromY = fromRect.top + fromRect.height/2 - parentRect.top;
+    }
+    
+    // Calcula ponto de destino (centro do elemento alvo)
+    const toX = toRect.left + toRect.width/2 - parentRect.left;
+    const toY = toRect.top + toRect.height/2 - parentRect.top;
+    
+    // Ajusta o ponto final para a borda do círculo
+    const angle = Math.atan2(toY - fromY, toX - fromX);
+    const radius = 4; // Metade do markerWidth
+    const adjustedToX = toX - Math.cos(angle) * radius;
+    const adjustedToY = toY - Math.sin(angle) * radius;
+    const fromCenterX = fromRect.left + fromRect.width/2 - parentRect.left;
+    const fromCenterY = fromRect.top + fromRect.height/2 - parentRect.top;
+    const toCenterX = toRect.left + toRect.width/2 - parentRect.left;
+    const toCenterY = toRect.top + toRect.height/2 - parentRect.top;
+    // Atualiza a linha
+    lineElement.setAttribute('x1', fromCenterX);
+    lineElement.setAttribute('y1', fromCenterY);
+    lineElement.setAttribute('x2', toCenterX);
+    lineElement.setAttribute('y2', toCenterY);
+    lineElement.setAttribute('marker-end', 'url(#circle-marker)');
+    lineElement.setAttribute('stroke', '#e74c3c');
+    lineElement.setAttribute('stroke-width', '2');
+}
+
+        // Atualiza conexões ao carregar e redimensionar
+        window.addEventListener('load', updateAllConnections);
+        window.addEventListener('resize', updateAllConnections);
+    </script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.menu-item {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s; /* Animação suave */
+}
+
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.menu-item.active {
+    background-color: #0056b3; /* Cor quando o item está aberto */
+}
+
+/* Estilo para o conteúdo que será exibido */
+.menu-item .content {
+    display: none; /* Inicialmente oculto */
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    color: #333;
+}
